@@ -7,6 +7,7 @@ import RepasoUseContext from "./clases/clase-1/hooks/4-useContext/RepasoUseConte
 import todoReducer, {
   initialState,
 } from "./clases/clase-1/hooks/5-useReducer/todoReducer";
+import EjemplosDocumentacion from "./clases/clase-3/EjemplosDocumentacion";
 
 function App() {
   /*useReducer*/
@@ -51,12 +52,14 @@ function App() {
         <button type="submit">Agregar Tarea</button>
       </form>
 
-<ol>
-  {
-    
-  }
-</ol>
+      <ol>
+        {todos.map((item) => {
+          return <li>{item.toDo}</li>;
+        })}
+      </ol>
 
+      <hr />
+      <EjemplosDocumentacion />
     </>
   );
 }

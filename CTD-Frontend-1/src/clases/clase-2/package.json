@@ -1,0 +1,21 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "manejador de estado global de aplicaciones mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "digital",
+    "house",
+    "estado",
+    "global"
+  ],
+  "author": "Victor Zapata",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
