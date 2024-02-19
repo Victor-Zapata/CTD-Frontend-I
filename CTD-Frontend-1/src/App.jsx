@@ -8,6 +8,7 @@ import todoReducer, {
   initialState,
 } from "./clases/clase-1/hooks/5-useReducer/todoReducer";
 import EjemplosDocumentacion from "./clases/clase-3/EjemplosDocumentacion";
+import TiposDeProps from "./clases/clase-4/TiposDeProps";
 
 function App() {
   /*useReducer*/
@@ -25,13 +26,13 @@ function App() {
     dispatch(action);
   };
 
-  console.log(todos);
+  // console.log(todos);
 
   /*useReducer*/
 
   return (
     <>
-      <h1>Hola, aquí empezamos Frontend I</h1>
+      {/* <h1>Hola, aquí empezamos Frontend I</h1>
 
       <RepasoUseState />
       <hr />
@@ -59,7 +60,10 @@ function App() {
       </ol>
 
       <hr />
-      <EjemplosDocumentacion />
+      <EjemplosDocumentacion /> */}
+
+      <hr />
+      <TiposDeProps title={'Aprendiendo PropTypes'} subtitle={ 123 } />
     </>
   );
 }
